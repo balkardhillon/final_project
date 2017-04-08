@@ -1,0 +1,17 @@
+{
+  "name": "maths_quiz",
+  "version": "1.0.0",
+  "description": "I have made a Maths QUIZ app.",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "socket.io": "^0.9.17",
+    "express": "^3.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

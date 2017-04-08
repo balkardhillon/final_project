@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>MATHS QUIZ</title>
+</head>
+<body>
+ <div id="timer">00:00</div>
+ <h1> MATHEMATICS QUIZ</h1>
+ <div class="score_detail">
+    
+</div>
+   <div id ="quizcontainer">
+   
+   
+     <div id ="question"></div>
+     
+    <ul>
+    <li > <input id="r" type="radio" name="choice" value="1" class="rj"/>
+    <div id="choice1"></div></li>
+     
+     <li><input  id="r" type="radio" name="choice" value="2" />
+     <div id="choice2"></div></li>
+     
+     <li><input  id="r" type="radio" name="choice" value="3" />
+     <div id="choice3"></div></li>
+     
+     <li><input  id="r" type="radio" name="choice" value="4" />
+     <div id="choice4"></div></li></ul>
+     <div id="correctans"></div>
+
+<button id="nextButton" class="nxt-button" onClick="makeNextQuesReady();">Next Question</button>
+</div>
+
+<div id="result" class="container result" style="display:none;"></div>
+
+
+     <script src="app.js"></script>
+
+</body>
+</html>
